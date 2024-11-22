@@ -1,0 +1,292 @@
+/* Font Nexa Heavy */
+@font-face {
+    font-family: 'Nexa Heavy';
+    src: url('../fonts/Nexa-Heavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('../fonts/coolvetica\ rg.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+    font-family: 'Nexa Heavy', sans-serif;
+    font-size: 2rem !important; 
+} 
+
+.blue-dot{
+    color: #0097B2;
+}
+
+.navbar-collapse {
+    margin-right: 100px;
+    font-size: 1.5rem;
+    
+}
+
+.navbar-nav a{
+    font-family: 'Nexa Heavy', sans-serif;
+
+}
+
+
+.navbar-nav a:hover{
+    color: #0097B2;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.content h1 {
+    font-family: 'Coolvetica', sans-serif;
+    font-size: 65px;
+    margin-left: 100px;
+
+}
+
+.highlight {
+    color: #0097B2; /* Sesuaikan warna sesuai kebutuhan */
+    font-weight: bold;
+}
+
+.blue-dot {
+    color: #0097B2; /* Sesuaikan warna biru sesuai kebutuhan */
+}
+
+.image-container {
+    flex: 1;
+    text-align: right;
+}
+
+.image-container img {
+    margin-right: 100px;
+    max-width: 68%;
+    height: auto;
+}
+
+.about-content{
+    margin-top: 100px;
+}
+
+.about-content h1{
+    font-family: 'Nexa Heavy', sans-serif;
+    text-align: left;
+    font-size: 5rem;
+    margin-left: 180px;
+    margin-top: 100px;
+
+}
+
+.about-content p{
+    font-family: 'Coolvetica', sans-serif;
+    font-size: 2rem;
+}
+
+
+.main-product{
+    margin-top: 50px;
+}
+.main-product h1{
+    font-family: 'Nexa Heavy', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+#carouselExampleIndicators {
+    max-width: 1000px; /* Sesuaikan ukuran yang diinginkan */
+    margin: 0 auto; /* Untuk memusatkan carousel */
+}
+
+.carousel-indicators button {
+    background-color: rgba(0,0,0,0.5) !important; /* Warna abu-abu semi transparan */
+    width: 12px !important; /* Ukuran indikator */
+    height: 12px !important;
+    border-radius: 50% !important; /* Bentuk bulat */
+}
+
+.carousel-indicators .active {
+    background-color: black !important; /* Indikator aktif warna hitam pekat */
+}
+
+/* Membuat arrow kontras dengan background terang */
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    background-color: rgba(0,0,0,0.5); /* Latar belakang semi transparan */
+    background-size: 60%; /* Mengecilkan ikon */
+    border-radius: 50%; /* Membuat berbentuk bulat */
+    padding: 10px; /* Menambah padding */
+}
+
+.carousel-control-prev-icon:hover, 
+.carousel-control-next-icon:hover {
+    background-color: rgba(0,0,0,0.7); /* Warna berbeda saat dihover */
+}
+
+.contact-content{
+    margin-top: 100px;
+}
+
+.contact-content h1{
+    font-family: 'Nexa Heavy', sans-serif;
+    font-size: 5rem;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.form-label{
+    font-family: 'Coolvetica', sans-serif;
+}
+
+.contact-form{
+    margin-right: 100px;
+}
+
+.contact-form .form-control:focus {
+    border-color: #0097B2;
+    box-shadow: 0 0 0 0.3rem rgba(0,123,255,0.25);
+}
+
+.contact-form .btn-primary {
+    background-color: #0097B2;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.custom-footer {
+    margin-top: 200px;
+    padding: 60px 0 20px;
+    color: #333;
+}
+
+.footer-logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.company-description {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.footer-links-section h5,
+.footer-social-section h5 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer-links-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links-section a,
+.footer-social-section a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    max-width: 50px;
+}
+
+.footer-links-section a:hover {
+    color: #0097B2;
+}
+
+* Ikon Sosial Media */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icon img {
+    width: 24px; /* Perkecil ukuran ikon sosial media */
+    height: 24px; /* Pertahankan proporsi ikon */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2); /* Efek hover memperbesar sedikit */
+    opacity: 0.8; /* Tambahkan efek redup */
+}
+
+
+.footer-divider {
+    border-top: 2px solid #0097B2;
+    margin: 30px 0;
+}
+
+.product-card {
+    margin-left: 50px;
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+
+.text-product h1{
+    font-family: 'Nexa Heavy', sans-serif;
+    font-size: 4rem;
+    text-align: left;
+    margin-left: 100px;
+}
+.product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.product-details {
+    padding: 15px;
+}
+.product-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.product-price {
+    color: #0097B2;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buy-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0097B2;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.buy-button:hover {
+    background-color: #0056b3;
+}
